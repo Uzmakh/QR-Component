@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Wix Madefor Display', sans-serif;
+  background: hsl(212, 45%, 89%);
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+  text-align: center;
+  /* height: 100vh; */
+}
+.card {
+  width: 380px;
+  margin: 5rem auto;
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 25px;
+}
+.card h1 {
+  /* border: 1px solid red; */
+  padding: 1rem;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+}
+.card p {
+  /* border: 1px solid red; */
+  padding: 1rem;
+  opacity: 0.6;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 0.1px;
+}
+/* Responsive */
+@media (max-width: 560px) {
+  .card {
+    width: 350px;
+    letter-spacing: normal;
+  }
+  .attribution {
+    /* border: 1px solid red; */
+    font-size: 0.8rem;
+  }
+  span {
+    display: block;
+  }
+}
