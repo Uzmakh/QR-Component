@@ -10,50 +10,43 @@ body {
   background: hsl(212, 45%, 89%);
   color: hsl(218, 44%, 22%);
   font-weight: bold;
-  text-align: center;
-
-  min-height: 100vh;
-display: grid;
-place-items: center;
+  /* height: 100vh; */
 }
 .card {
+  background: hsl(0, 0%, 100%);
   width: 380px;
-  margin: 5rem auto;
-  background: #fff;
-  display: flex;
-  flex-flow: column nowrap;
+  margin: 1rem auto;
+  padding: 1rem;
   border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
 }
 .card img {
   width: 100%;
-  padding: 1rem;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .card h1 {
   /* border: 1px solid red; */
   padding: 1rem;
-  letter-spacing: 0.5px;
-  word-spacing: 0.5px;
 }
 .card p {
   /* border: 1px solid red; */
   padding: 1rem;
-  opacity: 0.6;
   margin-top: -1rem;
-  margin-bottom: 1.5rem;
-  letter-spacing: 1px;
-  word-spacing: 0.1px;
+  margin-bottom: 0.8rem;
+  opacity: 0.6;
+  letter-spacing: 0.2px;
 }
 /* footer */
 .attribution {
-    /* border: 1px solid red; */
-    font-size: 1rem;
-    text-align: center;
-    padding: 1rem;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  /* border: 1px solid red; */
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 /* Responsive */
 @media (max-width: 560px) {
   .card {
@@ -61,10 +54,6 @@ place-items: center;
     letter-spacing: normal;
   }
   .attribution {
-    /* border: 1px solid red; */
     font-size: 0.8rem;
-  }
-  span {
-    display: block;
   }
 }
